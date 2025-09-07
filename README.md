@@ -37,19 +37,11 @@ This launches the development server with HMR at http://localhost:5173 (default)
 
 ---
 
-### Project Structure
+### Demo
 
-/
-├── src/ # Main source files for React components and logic
-├── index.html # Entry HTML template
-├── package.json # Project dependencies and scripts
-├── vite.config.js # Vite configuration
-├── webpack.config.js # Included but optional webpack config
-├── eslint.config.js # ESLint configuration
-├── README.md # Project documentation
-└── gitignore # Specify files to ignore in version control
-
----
+<img width="1366" height="599" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/295fe999-c04e-42f8-b765-fd1d60c8adbd" />
+<img width="1366" height="601" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/3e242e88-0c0c-456c-95b4-5ee448d5fac4" />
+<img width="1366" height="595" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/bd54a40b-4826-47ab-aa3c-4e2e036b874a" />
 
 ### 🧰 Technologies Used
 
