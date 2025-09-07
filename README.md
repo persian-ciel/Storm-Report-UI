@@ -1,12 +1,65 @@
-# React + Vite
+# Storm-Report-UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal React template scaffolded with **Vite**, featuring hot module replacement (HMR), ESLint, and configuration for future UI design enhancements—specifically tailored for a Storm Report user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
 
-## Expanding the ESLint configuration
+- **React powered by Vite**: Fast, optimized development environment with lightning-fast refresh and minimal bundle sizes.
+- **ESLint setup**: Pre-configured ESLint ensures code consistency and helps catch bugs early.
+- **Flexible build tooling**: Included setup for both **Babel** (`@vitejs/plugin-react`) and **SWC** (`@vitejs/plugin-react-swc`) for React Fast Refresh support :contentReference[oaicite:1]{index=1}.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14 or newer)
+- npm or Yarn (depending on your preference)
+
+### Installation
+
+```bash
+git clone https://github.com/persian-ciel/Storm-Report-UI.git
+cd Storm-Report-UI
+npm install
+```
+
+### Running Locally
+
+```bash
+npm run dev
+```
+
+This launches the development server with HMR at http://localhost:5173 (default). Any changes you make update instantly.
+
+---
+
+### Project Structure
+
+/
+├── src/ # Main source files for React components and logic
+├── index.html # Entry HTML template
+├── package.json # Project dependencies and scripts
+├── vite.config.js # Vite configuration
+├── webpack.config.js # Included but optional webpack config
+├── eslint.config.js # ESLint configuration
+├── README.md # Project documentation
+└── gitignore # Specify files to ignore in version control
+
+---
+
+### 🧰 Technologies Used
+
+- **Frontend**: React, Vite, Tailwind CSS
+- **Backend**: Node.js, Express
+- **Database**: SQLite
+
+---
+
+## Contact / Author
+
+- **Author**: `persian-ciel`
+- **GitHub Profile**: [persian-ciel](https://github.com/persian-ciel)
